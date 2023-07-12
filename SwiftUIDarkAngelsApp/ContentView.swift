@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showDarkAngelsInfo = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button(action: showMoreInfo) {
+                Text(showDarkAngelsInfo ? "Hide Dark Angels Info" : "Show Info about Dark Angels")
+                    .scaleEffect(showDarkAngelsInfo ? 1.5 : 1)
+            }
+            Spacer()
+            VStack {
+                DarkAngelsView()
+                    .frame(width: 200, height: 200)
+                    .blinking(duration: 5)
+                ScrollView {
+                    VStack {
+                        Text("Темные Ангелы")
+                            .font(.largeTitle)
+                        Text(darkAngelsStory)
+                            .padding()
+                            .multilineTextAlignment(.center)
+                    }
+                }
+            }
+            .opacity(showDarkAngelsInfo ? 1 : 0)
         }
-        .padding()
+    }
+    
+    private func showMoreInfo() {
+        withAnimation {
+            showDarkAngelsInfo.toggle()
+        }
     }
 }
 
