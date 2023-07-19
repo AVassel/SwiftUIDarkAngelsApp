@@ -14,6 +14,9 @@
 		3E251A912A5D6EF300E90DCF /* DarkAngelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E251A902A5D6EF300E90DCF /* DarkAngelsView.swift */; };
 		3E251A952A5D702C00E90DCF /* BlinkingMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E251A942A5D702C00E90DCF /* BlinkingMod.swift */; };
 		3E251AB72A5D9D0D00E90DCF /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E251AB62A5D9D0D00E90DCF /* Resources.swift */; };
+		3E3F0A042A67DCC50066C74D /* DarkAngelsWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F0A032A67DCC50066C74D /* DarkAngelsWing.swift */; };
+		3E3F0A062A67F9150066C74D /* ShoulderPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F0A052A67F9150066C74D /* ShoulderPad.swift */; };
+		3E3F0A082A67FC900066C74D /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F0A072A67FC900066C74D /* Sword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		3E251A902A5D6EF300E90DCF /* DarkAngelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkAngelsView.swift; sourceTree = "<group>"; };
 		3E251A942A5D702C00E90DCF /* BlinkingMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingMod.swift; sourceTree = "<group>"; };
 		3E251AB62A5D9D0D00E90DCF /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		3E3F0A032A67DCC50066C74D /* DarkAngelsWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkAngelsWing.swift; sourceTree = "<group>"; };
+		3E3F0A052A67F9150066C74D /* ShoulderPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderPad.swift; sourceTree = "<group>"; };
+		3E3F0A072A67FC900066C74D /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				3E251A822A5D6ED300E90DCF /* SwiftUIDarkAngelsAppApp.swift */,
 				3E251A902A5D6EF300E90DCF /* DarkAngelsView.swift */,
 				3E251A842A5D6ED300E90DCF /* ContentView.swift */,
+				3E3F0A092A67FFFA0066C74D /* LogoStructs */,
 				3E99D14E2A5ECAD400D36042 /* Modifiers */,
 				3E251A862A5D6ED500E90DCF /* Assets.xcassets */,
 				3E251A882A5D6ED500E90DCF /* Preview Content */,
@@ -74,6 +81,16 @@
 				3E251A892A5D6ED500E90DCF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E3F0A092A67FFFA0066C74D /* LogoStructs */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F0A032A67DCC50066C74D /* DarkAngelsWing.swift */,
+				3E3F0A052A67F9150066C74D /* ShoulderPad.swift */,
+				3E3F0A072A67FC900066C74D /* Sword.swift */,
+			);
+			path = LogoStructs;
 			sourceTree = "<group>";
 		};
 		3E99D14E2A5ECAD400D36042 /* Modifiers */ = {
@@ -156,8 +173,11 @@
 			files = (
 				3E251A852A5D6ED300E90DCF /* ContentView.swift in Sources */,
 				3E251A832A5D6ED300E90DCF /* SwiftUIDarkAngelsAppApp.swift in Sources */,
+				3E3F0A042A67DCC50066C74D /* DarkAngelsWing.swift in Sources */,
 				3E251A952A5D702C00E90DCF /* BlinkingMod.swift in Sources */,
 				3E251AB72A5D9D0D00E90DCF /* Resources.swift in Sources */,
+				3E3F0A082A67FC900066C74D /* Sword.swift in Sources */,
+				3E3F0A062A67F9150066C74D /* ShoulderPad.swift in Sources */,
 				3E251A912A5D6EF300E90DCF /* DarkAngelsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
